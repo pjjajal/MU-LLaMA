@@ -1,15 +1,6 @@
-import logging
-import math
-
 import torch
 import torch.nn as nn
 import torchaudio
-from PIL import Image
-from pytorchvideo import transforms as pv_transforms
-from pytorchvideo.data.clip_sampling import ConstantClipsPerVideoSampler
-from pytorchvideo.data.encoded_video import EncodedVideo
-from torchvision import transforms
-from torchvision.transforms._transforms_video import NormalizeVideo
 
 from .models.multimodal_preprocessors import SimpleTokenizer
 

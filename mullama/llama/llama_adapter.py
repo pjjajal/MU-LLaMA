@@ -10,7 +10,7 @@ import torch.nn.functional as F
 
 from .llama import Transformer, ModelArgs, RMSNorm
 from .tokenizer import Tokenizer
-from util.misc import download
+from ..util.misc import download
 from .utils import sample_top_p
 
 from transformers import Wav2Vec2FeatureExtractor
